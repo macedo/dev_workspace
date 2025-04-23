@@ -7,4 +7,5 @@ trap 'echo "Dev Workspace installation failed! You can retry by running: source 
 # Check the distribution name and version and abort if incompatible
 source ~/.local/share/dev_workspace/install/check-version.sh
 
-echo "Get ready to make a few choices..."
+echo "Installing terminal tools..."
+source ~/.local/share/dev_workspace/install/terminal.sh
